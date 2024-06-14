@@ -9,4 +9,5 @@ sudo chmod -R 755 ChatAppLocation/*
 For example:
 
 sudo chown -R trluser:trluser /var/www/html/*
+
 sudo chmod -R 755 /var/www/html/*

@@ -1,0 +1,131 @@
+/* Body ve Genel Stiller */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Tablo Stilleri */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+/* Buton Stilleri */
+.deleteUserBtn, .changePasswordBtn, .seeLogBtn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.deleteUserBtn {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+.changePasswordBtn {
+    background-color: #5bc0de;
+    color: #fff;
+}
+
+.seeLogBtn {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+.deleteUserBtn:hover, .changePasswordBtn:hover, .seeLogBtn:hover {
+    opacity: 0.8;
+}
+
+/* Popup ve Modallar */
+.popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    overflow: auto;
+}
+
+.popup-content {
+    background-color: #333;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    max-width: 600px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Input Stilleri */
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Actions Kısmı */
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.actions button {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
